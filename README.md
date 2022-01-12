@@ -636,7 +636,7 @@ module.exports = {
        //靠mapActions生成：increment、decrement（对象形式）
        ...mapMutations({increment:'JIA',decrement:'JIAN'}),
        
-       //靠mapMutations生成：JIA、JIAN（对象形式）
+       //靠mapMutations生成：JIA、JIAN（数组形式）
        ...mapMutations(['JIA','JIAN']),
    }
    ```
