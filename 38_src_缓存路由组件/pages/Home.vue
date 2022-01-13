@@ -25,10 +25,10 @@
           <!-- <a class="list-group-item active" href="./home-message.html">Message</a> -->
         </li>
       </ul>
-       <!-- 缓存多个个路由组件 -->
-      <!-- <keep-alive :include="['News','Message']"> -->
       <!-- 缓存一个路由组件 -->
-      <keep-alive include="News">
+      <!-- <keep-alive include="News"> -->
+        <!-- 缓存多个个路由组件 -->
+      <keep-alive :include="['News','Message']">
         <router-view></router-view>
       </keep-alive>
     </div>
